@@ -49,14 +49,14 @@ const VideoChat = () => {
       />
       <button onClick={handleCall}>Call</button>
 
-      <div className="flex gap-4 mt-4">
+      <div>
         <div>
           <h3>My Video</h3>
-          <video ref={myVideoRef} autoPlay muted className="border" />
+          <video ref={myVideoRef} autoPlay muted />
         </div>
         <div>
           <h3>Remote Video</h3>
-          <video ref={remoteVideoRef} autoPlay className="border" />
+          <video ref={remoteVideoRef} autoPla />
         </div>
       </div>
     </div>
