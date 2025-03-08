@@ -46,9 +46,8 @@ const VideoChat = () => {
         value={peerID}
         onChange={(e) => setPeerID(e.target.value)}
         placeholder="Enter Peer ID"
-        className="border p-2 mb-2"
       />
-      <button onClick={handleCall} className="bg-blue-500 text-white px-4 py-2">Call</button>
+      <button onClick={handleCall}>Call</button>
 
       <div className="flex gap-4 mt-4">
         <div>
