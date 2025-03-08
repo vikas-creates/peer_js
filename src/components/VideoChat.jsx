@@ -56,7 +56,7 @@ const VideoChat = () => {
         </div>
         <div>
           <h3>Remote Video</h3>
-          <video ref={remoteVideoRef} autoPla />
+          <video ref={remoteVideoRef} autoPlay />
         </div>
       </div>
     </div>
